@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  letter-spacing: -0.2px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  line-height: 1.35;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #f5f5dd;
+}
+/* ヘッダー */
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+.header-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.header-logo {
+  float: left;
+  line-height: 0.9;
+  margin: 10px 0 0 10px;
+}
+.header-logo p{
+  color: #664433;
+  margin:5px 0 15px 0;
+}
+header form {
+  float: right;
+  margin: 20px 10px 0 0;
+}
+header nav {
+  clear: both;
+  margin-bottom: 5px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li{
+  border-right: 1px solid #664433;
+}
+header nav ul li:last-child {
+  border: none;
+}
+header nav ul li a {
+  color: #664433;
+  text-decoration: none;
+  display: block;
+  padding:0 50px 0 50px;
+}
+/* メイン */
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+.main-wrapper h2 img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.mainsection-wrapper {
+  display: flex;
+}
+/* メインナビ */
+.main-nav {
+  flex: 0.8;
+  margin-right: 10px;
+}
+.main-nav ul li {
+  border-bottom:1px dashed black;
+  background-image: url(img/icon/arrow.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+}
+.main-nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px 0 10px 35px;
+}
+.main-nav ul li:last-child {
+  border-bottom: none;
+}
+.cook-nav {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.purpose-nav {
+  background-color: #ffffff;
+  padding: 10px;
+}
+/* メインセクション */
+.main-section {
+  flex: 2;
+  margin-right: 10px;
+}
+/* 新しいレシピ */
+#new-recipe {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.section-title {
+  background-color: #99bb22;
+  color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 4px 0 4px 45px;
+  background-image: url(img/icon/dish.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x:20px;
+  margin-bottom: 20px;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+}
+.recipes p {
+  font-size: 10px;
+  text-align: center;
+}
+/* 日本食レシピ */
+#japanesefood-recipe {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.section-box {
+  display: flex;
+}
+.japanesefood-recipe-text p {
+  font-size: 14px;
+  margin-left: 15px;
+}
+p.indent {
+  text-indent: 1em;
+}
+.japanesefood-recipe-text p::after {
+  content: "";
+  display: block;
+  margin: 10px;
+}
+.continue a{
+  color: #fc8833;
+  font-size: 16px;
+  margin: 0;
+  text-decoration: none;
+  background-image: url(img/icon/arrow.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-left: 20px;
+  position: relative;
+  left: 180px;
+}
+
+/* おすすめレシピ */
+#recommend-recipe {
+  background-color: #ffffff;
+  padding: 10px;
+}
+#recommend-recipe h4 {
+  color: #664433;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.recommend-recipe-text {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.recommend-recipe-text p::after {
+  content: "";
+  display: block;
+  margin: 10px;
+}
+.spring-food {
+  margin-bottom: 20px;
+}
+.spring-vegetabl {
+  margin-bottom: 20px;
+}
+/* アサイド */
+aside {
+  flex: 0.5;
+}
+aside p {
+  margin-bottom: 20px;
+}
+aside p a {
+  display: block;
+}
+/* フッター */
+.footer-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+footer nav ul li {
+  border-right: 1px solid #a1a1a1;
+  padding-right: 40px;
+  margin: 5px 20px;
+  font-size: 10px;
+}
+footer nav ul li a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+footer nav ul li:last-child {
+  border: none;
+}
+footer p {
+  text-align: center;
+  color: #747474;
+  padding-bottom: 20px;
+}
+footer {
+  background-color: #ffffff;
+  border-top: 1px solid #cccccc;
+}
