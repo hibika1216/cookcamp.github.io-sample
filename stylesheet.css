@@ -54,6 +54,10 @@ header nav ul li a {
   display: block;
   padding:0 50px 0 50px;
 }
+header nav ul li a:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
 /* メイン */
 main {
   width: 960px;
@@ -84,6 +88,10 @@ main {
   display: block;
   padding: 10px 0 10px 35px;
 }
+.main-nav ul li a:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
 .main-nav ul li:last-child {
   border-bottom: none;
 }
@@ -105,6 +113,7 @@ main {
 #new-recipe {
   background-color: #ffffff;
   padding: 10px;
+  padding-bottom: 20px;
   margin-bottom: 10px;
 }
 .section-title {
@@ -126,6 +135,10 @@ main {
 .recipes p {
   font-size: 10px;
   text-align: center;
+}
+.recipe:hover {
+  transform: scale(1.3,1.3);
+  transition: 0.4s;
 }
 /* 日本食レシピ */
 #japanesefood-recipe {
@@ -159,6 +172,10 @@ p.indent {
   padding-left: 20px;
   position: relative;
   left: 180px;
+}
+.continue a:hover {
+  opacity: 0.5;
+  transition: 0.2s;
 }
 
 /* おすすめレシピ */
